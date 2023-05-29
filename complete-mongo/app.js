@@ -16,7 +16,7 @@ connectToDb(err => {
         });
         db = getDb();
     }
-});
+}); 
 
 app.get('/books', (req, res) => {
     const bookPerPage = 3;
